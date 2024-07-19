@@ -36,6 +36,8 @@ public class AddContact extends HttpServlet{
 			req.setAttribute("error","failed to add");
 			req.getRequestDispatcher("addcontact.jsp").forward(req, resp);
 		}
+		// "Contact Added"
+		// "added comment" 
 	}
 
 }
